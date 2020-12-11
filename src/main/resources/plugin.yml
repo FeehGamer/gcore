@@ -1,0 +1,79 @@
+name: GCore
+author: FeehGamer
+main: me.feehgamer.gcore.Main
+version: 2.0-RELEASE
+website: galaxytown.xyz
+depend: [PlaceholderAPI, ProtocolLib]
+commands:
+  gamemode:
+    aliases: ["gm"]
+  gmc:
+  gms:
+  gma:
+  gmsp:
+  list:
+  broadcast:
+    aliases: ["bc"]
+  actionbar:
+    aliases: ["ab"]
+  clearchat:
+    aliases: ["cc"]
+  nightvision:
+    aliases: ["nv"]
+  fly:
+  staff:
+  lobby:
+    aliases: ["hub"]
+  staffchat:
+    aliases: ["sc"]
+  kittycannon:
+    aliases: ["kc"]
+  grappling:
+    aliases: ["gh"]
+permissions:
+  galaxycore.grappling:
+    default: op
+  galaxycore.kittycannon:
+    default: op
+  galaxycore.staff:
+    default: op
+  galaxycore.moderation.*:
+    default: op
+  galaxycore.moderation.clearchat:
+    default: op
+  galaxycore.bypass.*:
+    default: op
+  galaxycore.bypass.clearchat:
+    default: op
+  galaxycore.gamemode.creative:
+    default: op
+  galaxycore.vip.*:
+    default: op
+  galaxycore.vip.nightvision:
+    default: op
+  galaxycore.vip.fly:
+    default: op
+  galaxycore.admin.fly.others:
+    default: op
+  galaxycore.gamemode.survival:
+    default: op
+  galaxycore.gamemode.spectator:
+    default: op
+  galaxycore.gamemode.adventure:
+    default: op
+  galaxycore.gamemode.*:
+    default: op
+  galaxycore.admin.*:
+    default: op
+  galaxycore.*:
+    default: op
+  galaxycore.gamemode.others:
+    default: op
+  galaxycore.broadcast.*:
+    default: op
+  galaxycore.broadcast.actionbar:
+    default: op
+  galaxycore.broadcast.chat:
+    default: op
+  galaxycore.vanished:
+    default: op

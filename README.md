@@ -1,2 +1,2 @@
 # GalaxyCore
-## Plugin I made for my previous server GalaxyTown
+#### Plugin I made for my previous server GalaxyTown
